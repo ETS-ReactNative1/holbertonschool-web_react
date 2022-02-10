@@ -1,4 +1,4 @@
-[react logo](https://w7.pngwing.com/pngs/856/564/png-transparent-react-logo-javascript-front-and-back-ends-user-interface-others-miscellaneous-logo-symmetry.png)
+![react logo](https://w7.pngwing.com/pngs/856/564/png-transparent-react-logo-javascript-front-and-back-ends-user-interface-others-miscellaneous-logo-symmetry.png)
 # React Specialization
 
 # React
