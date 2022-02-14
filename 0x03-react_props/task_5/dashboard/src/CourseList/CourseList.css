@@ -1,0 +1,17 @@
+.course-list {
+  padding: 20px 30px;
+}
+table {  
+  margin: 20px 20px 20px 0;
+  border: 1px gray solid;
+  width: 100%;
+}
+
+th {
+  text-align: start;
+  border-bottom: 1px gray solid;
+}
+
+td {
+  width: 70%;
+}
