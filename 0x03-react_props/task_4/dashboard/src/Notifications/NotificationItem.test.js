@@ -24,6 +24,6 @@ describe("<NotificationItem />", () => {
     );
     wrapper.update();
     const listItem = wrapper.find("li");
-    expect(listItem.html()).toEqual("<li><u>test</u></li>");
+    expect(listItem.html()).toEqual('<li data-notification-type="default"><u>test</u></li>');
   });
 });

@@ -1,6 +1,7 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
-const CourseListRow = ({ isHeader = false, textFirstCell, textSecondCell }) => {
+const CourseListRow = ({ isHeader = false, textFirstCell, textSecondCell = null }) => {
   return (
     <tr>
       {
@@ -27,5 +28,11 @@ const CourseListRow = ({ isHeader = false, textFirstCell, textSecondCell }) => {
     </tr>
   )
 }
+
+CourseListRow.propTypes = {
+  isHeader: PropTypes.bool,
+  textFirstCell: PropTypes.string.isRequired,
+  textSecondCell: PropTypes.string
+};
 
 export default CourseListRow
